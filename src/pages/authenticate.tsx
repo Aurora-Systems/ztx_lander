@@ -93,7 +93,7 @@ const Authenticate = () => {
                 :
                 <form onSubmit={handle_otp_submit}>
                     <div className="mb-2">
-                        <p>Please enter the OTP sent to {email}</p>
+                        <p>Please enter the OTP sent to {email}. <br/>Check your <b>spam / junk</b> folder if you can't find it in your inbox folder</p>
                         <input 
                             type="text" 
                             className="form-control text-center" 
