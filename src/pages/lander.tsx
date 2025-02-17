@@ -14,8 +14,9 @@ const Lander = () => {
 
                     <div>
                         <div className="d-flex flex-row align-items-center justify-content-center justify-content-md-start">
-                            <div className="rounded s_bg">
+                            <div className="rounded ">
                                 
+                            <img src="https://ngratesc.sirv.com/ZTX/logo.png" width={100} alt="ZTX logo"/>
 
                             </div>
                             <div>
