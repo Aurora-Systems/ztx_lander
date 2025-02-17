@@ -82,7 +82,7 @@ const Authenticate = () => {
 
                     </div>
                     <div className="mb-2">
-                        <small>By continuing, you agree to our <a href="/legal/privacy-policy" target="_blank"  className="p_text">Privacy Policy</a></small>
+                        {/* <small>By continuing, you agree to our <a href="/legal/privacy-policy" target="_blank"  className="p_text">Privacy Policy</a></small> */}
                     </div>
                     <div>
                         <button type="submit" className="btn p_btn" disabled={loading}>{loading?<Spinner size="sm"/>:"Continue"}</button>
