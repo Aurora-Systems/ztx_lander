@@ -16,7 +16,7 @@ const Lander = () => {
                         <div className="d-flex flex-row align-items-center justify-content-center justify-content-md-start">
                             <div className="rounded ">
                                 
-                            <img src="https://ngratesc.sirv.com/ZTX/logo.png" width={100} alt="ZTX logo"/>
+                            <img src="https://ngratesc.sirv.com/ZTX/ztx_logo.png" className="mt-3" width={100} alt="ZTX logo"/>
 
                             </div>
                             <div>
@@ -27,8 +27,8 @@ const Lander = () => {
 
                         </div>
 
-                        <p className="fst-italic p_text">Find Businesses. Connect Instantly.</p>
-                        <p>ZTX makes it easy to discover and connect with local businesses, services, and professionals in your area. Whether you're looking for a trusted mechanic, a nearby restaurant, or a skilled contractor, ZTX helps you find what you need—fast and hassle-free. Start exploring today!</p>
+                        <p className="fst-italic p_text">Find Businesses & Connect Instantly.</p>
+                        <p>ZTX is a business directory app that makes it effortless to discover and connect with local businesses in your area</p>
                         <p className="p_text">Sign Up for Early Access</p>
                         <button className="btn p_btn me-2" onClick={() => {
                             sessionStorage.setItem("type", "individual")
